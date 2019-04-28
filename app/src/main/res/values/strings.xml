@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My First</string>
+    <string name="country_prompt">Choose a country</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="display_text">ROD disp</string>
+
+    <string name="country_summary">Electricity national grid: %s</string>
+    <string name="country_title">Country</string>
+    <string name="maxDelay_summary">Maximum delay set to: %s</string>
+    <string name="maxDelay_title"> Max. delay to start appliance</string>
+
+</resources>

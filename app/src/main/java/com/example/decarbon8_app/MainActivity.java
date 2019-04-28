@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
             countryCode.setText(sharedPreferences.getString("country","Not set"));
         }
         if (key.equals("maxDelay")) {
-            Integer maxDelay = Integer.valueOf(sharedPreferences.getString("maxDelay","12"));
+            String maxDelayStr = sharedPreferences.getString("maxDelay","12");
+            Integer maxDelay = Integer.valueOf(maxDelayStr);
 
             //maximumDelay.setText(sharedPreferences.getString("maxDelay","12"));
             maximumDelay.setText(maxDelay.toString());

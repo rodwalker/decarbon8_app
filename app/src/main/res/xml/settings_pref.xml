@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ListPreference
-        android:defaultValue="true"
+        android:defaultValue="DE"
         android:entries="@array/country_entries"
         android:entryValues="@array/country_values"
         android:key="country"
@@ -10,7 +10,6 @@
         android:title="@string/country_title" />
 
     <ListPreference
-        android:defaultValue="true"
         android:entries="@array/maxDelay_entries"
         android:entryValues="@array/maxDelay_values"
         android:key="maxDelay"

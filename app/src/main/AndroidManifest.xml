@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myfirst">
+    package="com.example.decarbon8_app">
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.decarbon8_app.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,13 +18,13 @@
         </activity>
 
         <activity
-        android:name=".SettingsActivity"
+        android:name="com.example.decarbon8_app.SettingsActivity"
         android:label="@string/action_settings"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName="com.example.decarbon8_app.MainActivity">
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value="com.example.decarbon8_app.MainActivity"/>
         </activity>
     </application>
 
